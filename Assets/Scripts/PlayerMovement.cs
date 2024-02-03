@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     private Rigidbody2D rb;
 
+    public ParticleSystem dust;
+    public GameObject dustSystem;
 
     private void Start()
     {
@@ -18,6 +20,10 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         rb.velocity = new Vector2(speed, rb.velocity.y);
+        if (speed != 0 && !dust.isPlaying)
+        {
+            dust.Play();
+        }
     }
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -40,6 +46,6 @@ public class PlayerMovement : MonoBehaviour
     void PlayerDied()
     {
         Debug.Log("You Die!");
+        dustSystem.SetActive(false);
     }
-    
 }
