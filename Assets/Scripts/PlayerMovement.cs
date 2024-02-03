@@ -19,4 +19,27 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = new Vector2(speed, rb.velocity.y);
     }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Obstacle"))
+        {
+            PlayerDied();
+        }
+    }
+    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Obstacle"))
+        {
+            PlayerDied();
+        }
+    }
+
+    //Player Died
+    void PlayerDied()
+    {
+        Debug.Log("You Die!");
+    }
+    
 }
