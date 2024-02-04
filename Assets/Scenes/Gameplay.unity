@@ -255,6 +255,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (1)
@@ -266,12 +270,25 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1362344590}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &43457376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 43457375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &59702090 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 164518791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &103186354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 635551590}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &128000229
 GameObject:
@@ -309,6 +326,11 @@ Transform:
   - {fileID: 164518792}
   m_Father: {fileID: 716517230}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &146735731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 584175858}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &164518791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,6 +391,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.94117653
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Orange Block
@@ -380,13 +406,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 164518795}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &164518792 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 164518791}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &164518795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59702090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &168238627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -447,6 +489,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.27450982
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Gray Wall (4)
@@ -458,7 +504,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 568616255}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &168238628 stripped
 Transform:
@@ -913,6 +962,11 @@ Transform:
   - {fileID: 798429726}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &382168678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 874392905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &436606857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1059,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.27450982
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Gray Wall (1)
@@ -1016,13 +1074,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1734821701}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &519090363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 519090362}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &568616252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 168238627}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &568616255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 568616252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &584175858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1083,6 +1162,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.27450982
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Gray Wall (3)
@@ -1094,12 +1177,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 584175862}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &584175859 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 584175858}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &584175862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146735731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
+--- !u!1 &606237653 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 881930304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &609407139 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 1584761702}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &635551590
 PrefabInstance:
@@ -1161,6 +1270,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.27450982
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Gray Block
@@ -1172,13 +1285,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 635551594}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &635551591 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 635551590}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &635551594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103186354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1 &636750437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1286,6 +1415,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 5981422420624763916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &726949586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 1061330010}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &731489582
 GameObject:
@@ -1435,6 +1569,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (6)
@@ -1446,12 +1584,25 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 984447980}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &737902136 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 737902135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &763960141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 1669407523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &770951026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 2038320399}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &796724606
 PrefabInstance:
@@ -1513,6 +1664,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (2)
@@ -1524,7 +1679,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2091540265}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &796724607 stripped
 Transform:
@@ -61020,6 +61178,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.27450982
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Gray Wall
@@ -61031,7 +61193,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1697121050}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &826679724 stripped
 Transform:
@@ -61098,6 +61263,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (5)
@@ -61109,13 +61278,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 874392909}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &874392906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 874392905}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &874392909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382168678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &881930304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61176,6 +61361,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (4)
@@ -61187,13 +61376,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 881930308}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &881930305 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 881930304}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &881930308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606237653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &886082292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61254,6 +61459,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.94117653
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (5)
@@ -61265,13 +61474,39 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1098715637}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &886082293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 886082292}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &895346236 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 1672365819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &984447977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 737902135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &984447980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984447977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1 &1015915864
 GameObject:
   m_ObjectHideFlags: 0
@@ -61372,6 +61607,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (7)
@@ -61383,13 +61622,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061330014}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &1061330011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 1061330010}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1061330014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726949586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
+--- !u!1 &1098715634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 886082292}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1098715637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098715634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &1180705142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61450,6 +61723,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.94117653
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (6)
@@ -61461,12 +61738,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1641596840}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &1180705143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 1180705142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1362344587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 43457375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1362344590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362344587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
+--- !u!1 &1376348510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 1588899359}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1406235553
 GameObject:
@@ -61830,6 +62133,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Block
@@ -61837,13 +62144,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584761706}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &1584761703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 1584761702}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584761706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609407139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1 &1587733381
 GameObject:
   m_ObjectHideFlags: 0
@@ -66790,6 +67113,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.27450982
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Gray Wall (2)
@@ -66801,13 +67128,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1588899363}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &1588899360 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 1588899359}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1588899363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376348510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1 &1634592918
 GameObject:
   m_ObjectHideFlags: 0
@@ -66955,6 +67298,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleSystem: {fileID: 1587733384}
+--- !u!1 &1641596837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 1180705142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641596840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641596837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &1669407523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67015,6 +67376,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (3)
@@ -67026,13 +67391,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1669407527}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &1669407524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 1669407523}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1669407527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763960141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &1672365819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67093,6 +67474,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.94117653
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (4)
@@ -67104,13 +67489,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1672365823}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &1672365820 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 1672365819}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1672365823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895346236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1 &1683814532 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2282438384830233661, guid: 7697a49ea05824642b45a2fab61c81c4, type: 3}
@@ -67121,6 +67522,60 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 2282438384830233658, guid: 7697a49ea05824642b45a2fab61c81c4, type: 3}
   m_PrefabInstance: {fileID: 217464176}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1697121047 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 826679723}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1697121050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697121047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
+--- !u!1 &1723389859 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 5981422420624763916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1723389862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723389859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
+--- !u!1 &1734821698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 519090362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1734821701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734821698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1 &1986097393
 GameObject:
   m_ObjectHideFlags: 0
@@ -67265,6 +67720,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.94117653
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall (7)
@@ -67276,13 +67735,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2038320403}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!4 &2038320400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1920674442076291438, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
   m_PrefabInstance: {fileID: 2038320399}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2038320403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770951026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
+--- !u!1 &2091540262 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+  m_PrefabInstance: {fileID: 796724606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2091540265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091540262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d5e2c6c38c8fea46979c7abf4acf4a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1634592919}
 --- !u!1001 &5981422420624763916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67343,6 +67836,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.121568635
       objectReference: {fileID: 0}
+    - target: {fileID: 2911051282627029639, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
       propertyPath: m_Name
       value: Blue Wall
@@ -67354,7 +67851,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7880038999864416790, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1723389862}
   m_SourcePrefab: {fileID: 100100000, guid: fa48480bc12b7b54795d712f5196f0e4, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

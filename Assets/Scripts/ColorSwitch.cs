@@ -33,7 +33,7 @@ public class ColorSwitch : MonoBehaviour
         }
     }
     
-    public void UpdateWorldState()
+    void UpdateWorldState()
     {
         ColorState currentState = availableColors[currentColorIndex];
         
@@ -41,24 +41,26 @@ public class ColorSwitch : MonoBehaviour
         {
             case ColorState.Gray:
             default:
+                Camera.main.backgroundColor = grayColor;
+                colorGray.SetActive(false);
                 colorObjects1.SetActive(true);
                 colorObjects2.SetActive(true);
-                colorGray.SetActive(false);
-                Camera.main.backgroundColor = grayColor;
                 break;
-            
+        
             case ColorState.Color1:
-                colorObjects1.SetActive(true);
-                colorObjects2.SetActive(false);
-                colorGray.SetActive(true);
                 Camera.main.backgroundColor = color1;
+                colorObjects2.SetActive(false);
+                colorObjects1.SetActive(true);
+                colorGray.SetActive(true);
+                
                 break;
-            
+        
             case ColorState.Color2:
+                Camera.main.backgroundColor = color2;
                 colorObjects1.SetActive(false);
                 colorObjects2.SetActive(true);
                 colorGray.SetActive(true);
-                Camera.main.backgroundColor = color2;
+                
                 break;
         }
     }
