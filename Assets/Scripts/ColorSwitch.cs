@@ -15,12 +15,32 @@ public class ColorSwitch : MonoBehaviour
     public enum ColorState { Gray, Color1, Color2 }
     private List<ColorState> availableColors = new List<ColorState> { ColorState.Gray, ColorState.Color1 };
     private int currentColorIndex = 0;
+
+    public PlayerEffect playerEffect;
+    public AudioSource spacePress;
+    
+    public GameObject perfectText;
+    private Coroutine hideTextCoroutine;
     
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            spacePress.Play();
             SwitchColor();
+            
+            if (playerEffect.IsPerfectTiming())
+            {
+                Debug.Log("Perfect!");
+                perfectText.SetActive(true);
+                
+                if (hideTextCoroutine != null)
+                {
+                    StopCoroutine(hideTextCoroutine);
+                }
+                
+                hideTextCoroutine = StartCoroutine(HidePerfectText());
+            }
         }
     }
 
@@ -71,5 +91,11 @@ public class ColorSwitch : MonoBehaviour
         {
             availableColors.Add(color);
         }
+    }
+    
+    IEnumerator HidePerfectText()
+    {
+        yield return new WaitForSeconds(0.5f);
+        perfectText.SetActive(false);
     }
 }

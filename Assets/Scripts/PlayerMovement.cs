@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public GameObject ringParticle;
     public ParticleSystem endParticle;
 
+    public AudioSource endAudio;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -59,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
         ringParticle.SetActive(false);
         
         circleSpriteRenderer.enabled = false;
+        endAudio.Play();
         endParticle.Play();
         
         StartCoroutine(PauseGameAfterDelay(5f));
