@@ -43,6 +43,11 @@ public class PlayerMovement : MonoBehaviour
         {
             PlayerDied();
         }
+        
+        if (other.CompareTag("Win"))
+        {
+            PlayerWin();
+        }
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
@@ -68,6 +73,18 @@ public class PlayerMovement : MonoBehaviour
         
         end.SetActive(true);
         endText.text = ("YOU LOSE!");
+        bgm.SetActive(false);
+        restart.SetActive(true);
+    }
+
+    void PlayerWin()
+    {
+        Debug.Log("You Win!");
+        dustSystem.SetActive(false);
+        ringParticle.SetActive(false);
+        
+        end.SetActive(true);
+        endText.text = ("YOU WIN!");
         bgm.SetActive(false);
         restart.SetActive(true);
     }
