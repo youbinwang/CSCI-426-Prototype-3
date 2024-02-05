@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -11,6 +12,14 @@ public class PlayerMovement : MonoBehaviour
 
     public ParticleSystem dust;
     public GameObject dustSystem;
+    public SpriteRenderer circleSpriteRenderer;
+
+    public TextMeshProUGUI endText;
+    public GameObject end;
+    public GameObject restart;
+    public GameObject bgm;
+    public GameObject ringParticle;
+    public ParticleSystem endParticle;
 
     private void Start()
     {
@@ -47,5 +56,22 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("You Die!");
         dustSystem.SetActive(false);
+        ringParticle.SetActive(false);
+        
+        circleSpriteRenderer.enabled = false;
+        endParticle.Play();
+        
+        StartCoroutine(PauseGameAfterDelay(5f));
+        
+        end.SetActive(true);
+        endText.text = ("YOU LOSE!");
+        bgm.SetActive(false);
+        restart.SetActive(true);
+    }
+    
+    IEnumerator PauseGameAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        Time.timeScale = 0;
     }
 }
